@@ -1,0 +1,115 @@
+/* Estilos Globais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #FF69B4, #8A2BE2);
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Menu de Navegação */
+  #menu {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  #menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Cabeçalhos */
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Figuras (Imagens) */
+  figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #img-div, #img-caption {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  #img-div img, #img-caption img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh; /* Limite máximo para imagens grandes */
+    object-fit: contain; /* Assegura que a imagem seja totalmente visível */
+    border-radius: 5px;
+  }
+  
+  /* Legendas */
+  figcaption {
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Links */
+  a {
+    color: #FF69B4;
+  }
+  
+  a:hover {
+    color: #8A2BE2;
+  }
+  
+  /* Estilo para Parágrafos */
+  p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 768px) {
+    #menu ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    figcaption {
+      font-size: 0.9em;
+      padding: 8px;
+    }
+  
+    p {
+      font-size: 0.9em;
+    }
+  }
+  
